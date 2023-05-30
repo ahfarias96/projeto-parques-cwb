@@ -1,0 +1,167 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(/img/0-background.jpg);
+    background-size: cover;
+}
+
+header {
+    padding: 15px;
+    background-color: #000000e5;    
+    color: #d3d3d3;
+}
+
+header,h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+header,h2 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    margin: 20px;
+    width: 250px;
+    height: 350px;
+    display: inline-block;
+    border-radius: 10px;
+    color: #d3d3d3;
+    background-color: #000000e5;
+    box-shadow: 1px 1px 10px black;
+}
+
+.btn {
+    display: block;
+    background-color: rgba(0, 165, 0, 0.315);
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: #000000e5;
+    border-color: rgba(0, 165, 0, 0.315);
+}
+
+.card-img1 {
+    height: 200px;
+    background-image: url(/img/1-botanico.jpg);
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-description1 {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-img2 {
+    height: 200px;
+    background-image: url(/img/2-nautico.jpg);
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-description2 {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-img3 {
+    height: 200px;
+    background-image: url(/img/3-tangua.jpg);
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-description3 {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-img4 {
+    height: 200px;
+    background-image: url(/img/4-zoologico.jpg);
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-description4 {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-img5 {
+    height: 200px;
+    background-image: url(/img/5-opera.jpg);
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-description5 {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-img6 {
+    height: 200px;
+    background-image: url(/img/6-memorial-ucraniano.jpg);
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-description6 {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-img7 {
+    height: 200px;
+    background-image: url(/img/7-lourenco.jpg);
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-description7 {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-img8 {
+    height: 200px;
+    background-image: url(/img/8-barigui.jpg);
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-description8 {
+    padding: 15px;
+    text-align: center;
+}
+
+footer {
+    padding: 50px;
+    text-align: center;
+    background-color: #000000e5;
+    color: #d3d3d3;
+}
+
+footer,
+a {
+    text-decoration: none;
+    color: #d3d3d3;
+}
